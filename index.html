@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b77780358f.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="main">
+        <div id="input" class="input-icons">
+            <i class="fa-solid fa-list-check icon"></i>
+            <input id="addtolist" type="text" placeholder="Type your todo list" />
+            <button id="addButton" class="fa-solid fa-plus"></button>
+        </div>
+        <div id="headerDiv">
+            <span class="Complete"><i class="fa-solid fa-check-double"></i>  Complete all tasks</span>
+            <span class="clear">Clear completed</span>
+        </div>
+        <hr>
+        <div id="lists">
+            <!-- <input type="checkbox" />
+            <label>Test <button class="delete">X</button></label><br>
+            <input type="checkbox" />
+            <label>Test <button class="delete">X</button></label> -->
+        </div>
+        <hr>
+        <div id="countDiv">
+            <span id="count"></span>
+            <span class="span">tasks left</span>
+            <span style="margin-left: 55%;">
+                <span>All </span><span class="span">Uncomplete </span><span class="span">Completed</span>
+            </span>
+        </div>
+    </div>    
+</body>
+</html>
